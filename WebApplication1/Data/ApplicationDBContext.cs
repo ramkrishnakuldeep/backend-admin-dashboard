@@ -17,5 +17,6 @@ namespace WebApplication1.Data
         public DbSet<Users> Users { get; set; }
         public DbSet<Roles> Roles { get; set; }
         public DbSet<Modules> Modules { get; set; }
+        public DbSet<Permissions> Permissions { get; set; }
     }
 }
